@@ -10,10 +10,10 @@ def main():
         print("Your PT 1 Percentage Is :-" , b)
     if a == "Halfyearly":
         print("Your Halfyearly Precentage Is :-" , c)
-    r = input("Would You Try Again ? \n If Yes Simply Type Y Or No Type N").lower()
-    if r == "Y":
+    r = input("Would You Try Again ? \n If Yes Simply Type 1 Or No Type 0 :-").lower()
+    if r == "1":
         main()
-    if r == "N":
+    if r == "0":
         print("Thanks For Using This Calculator Is Made By Manjeet Singh If You Want More Customised Code Simple Search In Google 'github.com/CodeManjeet'")
     else:
         print("Invalid Input Found Please write Valid Input")
